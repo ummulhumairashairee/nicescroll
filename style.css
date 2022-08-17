@@ -1,0 +1,320 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+ body{
+     font-family: 'Open Sans', sans-serif;
+ }
+ :root{
+     --primary-color: #F8991C;
+ }
+ 
+ .container{
+     width: 1170px;
+     margin: auto;
+ }
+ .row{
+     display: flex;
+     flex-wrap: wrap;
+ }
+ 
+ .align-center{
+     align-items: center;
+ }
+ 
+ ul{
+     list-style: none;
+ }
+ a{
+     text-decoration: none;
+ }
+ 
+ .btn{
+     color: white;
+     font-weight: 500;
+     font-size: 16px;
+     padding: 13px 32px;
+     background-color: var(--primary-color);
+     display: inline-block;
+     border-radius: 6px;
+ }
+ 
+ .heading h3{
+     color: var(--primary-color);
+     font-size: 16px;
+     font-weight: 700;
+ }
+ 
+ /* CSS BASIC ENDS HERE */
+ 
+ 
+ /* NAV STARTS */
+ nav .logo{
+     width: 30%;
+ }
+ nav .menu{
+     width: 70%;
+ }
+ 
+ 
+ nav .menu ul{
+     text-align:right;
+ }
+ nav .menu ul li{
+     display: inline-block;
+ }
+ 
+ nav .menu ul li a{
+     display: block;
+     padding: 50px 30px;
+     font-size: 14px;
+     color: #000;
+     text-transform: uppercase;
+ }
+ /* NAV ENDS */
+ 
+ /* Banner starts  */
+ #banner{
+     height: 660px;
+     background-color: #F8F8F8;
+ }
+ #banner .banner_img,
+ #banner .banner_text{
+     width: 50%;
+ }
+ #banner .banner_text p,
+ #banner .banner_text h3{
+     font-weight: 400;
+     font-size: 28px;
+ }
+ #banner .banner_text h2{
+     font-weight: 700;
+     font-size: 45px;
+ }
+ 
+ #banner .banner_text a{
+     margin-top: 36px;
+ }
+ 
+ 
+ #banner .banner_img{
+     text-align: right;
+ }
+ 
+ 
+ 
+ #banner .banner_text .social_icons{
+     margin-top: 250px;
+     position: relative;
+     width: fit-content;
+ }
+ 
+ 
+ #banner .banner_text .social_icons .icons{
+     position: absolute;
+     right: -40px;
+     top: -50px;
+ }
+ /* Banner ends */
+ 
+ /* about  */
+ #about{
+     padding: 78px 0;
+ }
+ #about .about_img{
+ width: 40%;
+ }
+ 
+ #about .about_img img{
+     width: 100%;
+     
+ }
+ 
+ #about .about_text{
+ width: 60%;
+ }
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+ body{
+     font-family: 'Open Sans', sans-serif;
+ }
+ :root{
+     --primary-color: #F8991C;
+ }
+ 
+ .container{
+     width: 1170px;
+     margin: auto;
+ }
+ .row{
+     display: flex;
+     flex-wrap: wrap;
+ }
+ 
+ .align-center{
+     align-items: center;
+ }
+ 
+ ul{
+     list-style: none;
+ }
+ a{
+     text-decoration: none;
+ }
+ 
+ .btn{
+     color: white;
+     font-weight: 500;
+     font-size: 16px;
+     padding: 13px 32px;
+     background-color: var(--primary-color);
+     display: inline-block;
+     border-radius: 6px;
+ }
+ 
+ .heading h3{
+     color: var(--primary-color);
+     font-size: 16px;
+     font-weight: 700;
+ }
+ .heading h2{
+     
+     font-size: 28px;
+     font-weight: 600;
+ }
+ 
+ /* CSS BASIC ENDS HERE */
+ 
+ 
+ /* NAV STARTS */
+ nav .logo{
+     width: 30%;
+ }
+ nav .menu{
+     width: 70%;
+ }
+ 
+ 
+ nav .menu ul{
+     text-align:right;
+ }
+ nav .menu ul li{
+     display: inline-block;
+ }
+ 
+ nav .menu ul li a{
+     display: block;
+     padding: 50px 30px;
+     font-size: 14px;
+     color: #000;
+     text-transform: uppercase;
+ }
+ /* NAV ENDS */
+ 
+ /* Banner starts  */
+ #banner{
+     height: 660px;
+     background-color: #F8F8F8;
+ }
+ #banner .banner_img,
+ #banner .banner_text{
+     width: 50%;
+ }
+ #banner .banner_text p,
+ #banner .banner_text h3{
+     font-weight: 400;
+     font-size: 28px;
+ }
+ #banner .banner_text h2{
+     font-weight: 700;
+     font-size: 45px;
+ }
+ 
+ #banner .banner_text a{
+     margin-top: 36px;
+ }
+ 
+ 
+ #banner .banner_img{
+     text-align: right;
+ }
+ 
+ 
+ 
+ #banner .banner_text .social_icons{
+     margin-top: 250px;
+     position: relative;
+     width: fit-content;
+ }
+ 
+ 
+ #banner .banner_text .social_icons .icons{
+     position: absolute;
+     right: -40px;
+     top: -50px;
+ }
+ /* Banner ends */
+ 
+ /* about  */
+ #about{
+     padding: 78px 0;
+ }
+ #about .about_img{
+ width: 40%;
+ }
+ 
+ #about .about_img img{
+     width: 100%;
+     
+ }
+ 
+ #about .about_text{
+ width: 60%;
+ }
+ 
+ #about .about_text p{
+     margin: 48px 0;
+     font-size: 14px;
+     font-weight: 500;
+ }
+ 
+ 
+ #about .about_text a:last-child{
+     color: #000;
+     margin-left: 60px;
+     background-color: transparent;
+     border: 1px solid var(--primary-color);
+     transition: 0.3s ease-in;
+ }
+ 
+ #about .about_text a:last-child:hover{
+     color: white;
+     background-color: var(--primary-color);
+     
+ }
+ 
+ 
+ /* skill starts */
+ #skill {
+     padding: 52px 0;
+     background-color: #F8F8F8;
+ }
+ 
+ .skill_card{
+     text-align: center;
+     width: 33.33%;
+     padding: 0 15px;
+ }
+ 
+ .skill_card h4{
+     font-weight: 600;
+     font-size: 28px;
+     color: var(--primary-color);
+     text-transform: capitalize;
+     margin: 15px 0;
+ }
+ /* skill ends */
